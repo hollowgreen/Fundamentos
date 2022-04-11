@@ -1,13 +1,13 @@
 console.log(Math.ceil(6.1))
 
 const obj1 = {}
-obj1.nome = 'Bola' // melhor usar esse mesmo
-// obj1['nome'] = 'Bola2' // mesmo codigo porem mais dificil.
+obj1.nome = 'Bola'
+// obj1['nome'] = 'Bola2'
 console.log(obj1.nome)
 
 function Obj(nome) {
     this.nome = nome
-    this.exec = function()  {
+    this.exec = function() {
         console.log('Exec...')
     }
 }
